@@ -41,5 +41,6 @@ def play(board)
   until turns == 9
     puts "Please enter 1-9"
     turns += 1
-  turn(board)
+    turn(board)
+  end
 end
